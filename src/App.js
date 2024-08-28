@@ -1,24 +1,75 @@
-import logo from './logo.svg';
+import React from 'react';
+import { FaChessKing, FaChessQueen, FaChessRook, FaChessBishop, FaChessKnight, FaChessPawn } from 'react-icons/fa';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+      <table>
+        <tbody>
+          <tr>
+            <td className="w"><FaChessRook /></td>
+            <td className="d"><FaChessKnight /></td>
+            <td className="w"><FaChessBishop /></td>
+            <td className="d"><FaChessQueen /></td>
+            <td className="w"><FaChessKing /></td>
+            <td className="d"><FaChessBishop /></td>
+            <td className="w"><FaChessKnight /></td>
+            <td className="d"><FaChessRook /></td>
+          </tr>
+          <tr>
+            <td className="d"><FaChessPawn /></td>
+            <td className="w"><FaChessPawn /></td>
+            <td className="d"><FaChessPawn /></td>
+            <td className="w"><FaChessPawn /></td>
+            <td className="d"><FaChessPawn /></td>
+            <td className="w"><FaChessPawn /></td>
+            <td className="d"><FaChessPawn /></td>
+            <td className="w"><FaChessPawn /></td>
+          </tr>
+          <tr>
+            <td className="w"></td>
+            <td className="d"></td>
+            <td className="w"></td>
+            <td className="d"></td>
+            <td className="w"></td>
+            <td className="d"></td>
+            <td className="w"></td>
+            <td className="d"></td>
+          </tr>
+          <tr>
+            <td className="d"></td>
+            <td className="w"></td>
+            <td className="d"></td>
+            <td className="w"></td>
+            <td className="d"></td>
+            <td className="w"></td>
+            <td className="d"></td>
+            <td className="w"></td>
+          </tr>
+          <tr>
+            <td className="w"><FaChessPawn /></td>
+            <td className="d"><FaChessPawn /></td>
+            <td className="w"><FaChessPawn /></td>
+            <td className="d"><FaChessPawn /></td>
+            <td className="w"><FaChessPawn /></td>
+            <td className="d"><FaChessPawn /></td>
+            <td className="w"><FaChessPawn /></td>
+            <td className="d"><FaChessPawn /></td>
+          </tr>
+          <tr>
+            <td className="d"><FaChessRook /></td>
+            <td className="w"><FaChessKnight /></td>
+            <td className="d"><FaChessBishop /></td>
+            <td className="w"><FaChessQueen /></td>
+            <td className="d"><FaChessKing /></td>
+            <td className="w"><FaChessBishop /></td>
+            <td className="d"><FaChessKnight /></td>
+            <td className="w"><FaChessRook /></td>
+          </tr>
+          </tbody>
+      </table>
+    </section>
   );
 }
 
