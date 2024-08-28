@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vikramvisha/CREATING-A-CHESS-BOARD-USING-REACTJS.git/static/css/main.81963c56.css",
+    "main.js": "/vikramvisha/CREATING-A-CHESS-BOARD-USING-REACTJS.git/static/js/main.e779fd39.js",
+    "static/js/453.8411124a.chunk.js": "/vikramvisha/CREATING-A-CHESS-BOARD-USING-REACTJS.git/static/js/453.8411124a.chunk.js",
+    "index.html": "/vikramvisha/CREATING-A-CHESS-BOARD-USING-REACTJS.git/index.html",
+    "main.81963c56.css.map": "/vikramvisha/CREATING-A-CHESS-BOARD-USING-REACTJS.git/static/css/main.81963c56.css.map",
+    "main.e779fd39.js.map": "/vikramvisha/CREATING-A-CHESS-BOARD-USING-REACTJS.git/static/js/main.e779fd39.js.map",
+    "453.8411124a.chunk.js.map": "/vikramvisha/CREATING-A-CHESS-BOARD-USING-REACTJS.git/static/js/453.8411124a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81963c56.css",
+    "static/js/main.e779fd39.js"
+  ]
+}
